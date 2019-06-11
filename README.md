@@ -9,7 +9,17 @@ https://getbootstrap.com/docs/4.3/getting-started/download/#bootstrapcdn
 Bootstrap Getting Started
 https://getbootstrap.com/docs/4.3/getting-started/introduction/
 
-## body_class( string|string[] $class = '' )
+
+# jQuery
+https://jquery.com/download/
+
+#### Google CDN
+https://developers.google.com/speed/libraries/#jquery
+
+
+# body_class Template Tag
+
+#### body_class( string|string[] $class = '' )
 https://developer.wordpress.org/reference/functions/body_class/#more-information
 
 The following example shows how to implement the body_class template tag into a theme.
