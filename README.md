@@ -29,6 +29,9 @@ https://fontawesome.com
 https://getbootstrap.com/docs/4.3/getting-started/introduction/
 https://www.bootstrapcdn.com/fontawesome/
 
+https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+
 Example
 
 ```html
@@ -63,6 +66,14 @@ Example
 
 In this example, we will use Google Fonts
 https://fonts.google.com/
+
+
+# Colors
+https://coolors.co/
+
+
+# Photos
+https://www.pexels.com
 
 
 # functions.php
