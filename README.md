@@ -1,5 +1,7 @@
 # WordPress Bootstrap Starter
 
+Bootstrap, the world’s most popular framework for building responsive, mobile-first sites.
+
 BootstrapCDN on StackShare
 https://www.bootstrapcdn.com
 
@@ -16,10 +18,58 @@ https://jquery.com/download/
 #### Google CDN
 https://developers.google.com/speed/libraries/#jquery
 
+Libraries
+To load a hosted library, copy and paste the HTML snippet for that library (shown below) in your web page. For instance, to load jQuery, embed the <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> snippet in your web page.
 
-# body_class Template Tag
+We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP. Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS and Timing-Allow headers and allowed to be cached for 1 year.
 
-#### body_class( string|string[] $class = '' )
+
+# Font Awesome
+https://fontawesome.com
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+https://www.bootstrapcdn.com/fontawesome/
+
+Example
+
+```html
+<div class="my-button">
+    <span class="text"> Settings Menu </span>
+</div>
+```
+```css
+/* font-awesome */
+.my-button{
+	display: inline-block;
+	padding: 8px 12px;
+	background: #eee;
+	border: solid 1px #D5D5D5;
+}
+
+.my-button span {
+	display: inline-block;
+}
+
+.my-button span:before {
+	font-family: 'FontAwesome';
+	content: '\f085';
+	position: relative;
+	margin-right: 5px;
+	font-size: 110%;
+}
+```
+
+
+# Google Fonts
+
+In this example, we will use Google Fonts
+https://fonts.google.com/
+
+
+# functions.php
+
+### body_class Template Tag
+
+body_class( string|string[] $class = '' )<br>
 https://developer.wordpress.org/reference/functions/body_class/#more-information
 
 The following example shows how to implement the body_class template tag into a theme.
