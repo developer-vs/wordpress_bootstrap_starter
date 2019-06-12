@@ -114,3 +114,8 @@ The results would be:
 ```html
 <body class="page page-id-2 page-parent page-template-default logged-in class-name">
 ```
+
+### is_single Template Tag
+
+is_single( int|string|array $post = '' )</br>
+https://developer.wordpress.org/reference/functions/is_single/
