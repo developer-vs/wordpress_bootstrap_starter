@@ -76,7 +76,16 @@ https://coolors.co/
 https://www.pexels.com
 
 
-# functions.php
+# Load styles specific for a post
+
+## functions.php
+
+```php
+// Styles for Responsive Breakpoints post
+  if ( is_single() && get_the_ID() === 88 ) {
+    wp_enqueue_style( 'responsive-breakpoints-styles', get_template_directory_uri() . '/css/responsive_breakpoints.css' );
+  }  
+```
 
 ### body_class Template Tag
 
@@ -119,3 +128,27 @@ The results would be:
 
 is_single( int|string|array $post = '' )</br>
 https://developer.wordpress.org/reference/functions/is_single/
+
+```php
+is_single();
+// When any single Post page is being displayed.
+ 
+is_single('17');
+// When Post 17 (ID) is being displayed.
+ 
+is_single(17);
+// When Post 17 (ID) is being displayed. Integer parameter also works
+
+is_single('Irish Stew');
+// When the Post with post_title of "Irish Stew" is being displayed.
+```
+
+### get_the_ID()
+
+https://developer.wordpress.org/reference/functions/get_the_id/
+
+The ID can be stored as a variable using
+
+```php
+<?php $postid = get_the_ID(); ?>
+```
