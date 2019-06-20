@@ -26,7 +26,6 @@ We recommend that you load libraries from the CDN via HTTPS, even if your own we
 
 # Font Awesome
 https://fontawesome.com
-https://getbootstrap.com/docs/4.3/getting-started/introduction/
 https://www.bootstrapcdn.com/fontawesome/
 
 https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
